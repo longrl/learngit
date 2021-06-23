@@ -1,3 +1,5 @@
+### 基本命令
+
 git init   确定工作区
 
 git add file_name    提交到暂存区
