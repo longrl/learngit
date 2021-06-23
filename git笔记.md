@@ -54,3 +54,17 @@ git branch -d <name> 删除分支
 
 **git merge --no-ff -m"massage" dev**    加入参数强制禁止fast forward  合并后可以用git log查看
 
+
+
+**多人协助**
+
+**git checkout -b dev origin/dev**    抓取远程分支并在本地创建分支
+
+完成作业之后即可推送 git push origin dev，可能会推送失败
+
+可以使用git pull把最新的提交拉取下来，  pull失败可以用git branch --set-upstream-to=origindev dev
+
+来指定本地dev分支与远程分支的连接。pull成功，解决分支冲突再push。
+
+可以用git status然后直接查看两个的不同，使用git lod --graph查看分支合并图（git rebase 把本地为push的分叉提交历史整理成直线）
+
