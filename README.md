@@ -1,4 +1,4 @@
 ### learngit
 
 
-记录gitc常用的指令
+记录git常用的指令
