@@ -9,6 +9,8 @@ git init   确定工作区
 
 git add file_name    提交到暂存区
 
+git rm --cached  移出暂存区 -r参数递归移除目录
+
 git commit -m "提交说明"  提交暂存区的文件
 
 git status  查看状态
